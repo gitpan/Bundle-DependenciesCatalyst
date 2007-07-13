@@ -3,9 +3,12 @@
 
 #########################
 
-use Test::More tests => 1;
-BEGIN { use_ok('Bundle::DependenciesCatalyst') };
+use Test;
+BEGIN { plan tests => 1 };
+use Bundle::DependenciesCatalyst;
+ok(1); 
 
 #########################
+
 
 

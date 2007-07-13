@@ -1,7 +1,7 @@
 package Bundle::DependenciesCatalyst;
 
 
-$VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 1;
@@ -14,10 +14,10 @@ Bundle::DependenciesCatalyst - installs non-Catalyst prereqs
 
 =head1 SYNOPSIS
 
-  C<perl -MCPAN -e 'install Bundle::DependenciesCatalyst'>
+  perl -MCPAN -e 'install Bundle::DependenciesCatalyst'
   
 
-=head1 CONTENT
+=head1 CONTENTS
 
 Config
 
